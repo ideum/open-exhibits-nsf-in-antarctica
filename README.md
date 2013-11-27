@@ -1,4 +1,4 @@
-open-exhibits-collection-viewer-antarctica
+open-exhibits-nsf-in-antarctica
 ==========================================
 
-Open Exhibits - Collection Viewer Antarctica
+Open Exhibits - NSF in Antarctica
