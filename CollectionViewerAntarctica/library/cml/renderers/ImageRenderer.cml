@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageRenderer>
+	<Renderer id="renderer1" dataPath="documentsDirectory:\collection_viewer\Images.cml"> <!-- dataPath can also be direct to; dataPath="C:\Users\All Mankind\Documents\collection_viewer\Images.cml" -->
+		<TouchContainer id="touchContainer" className="HeistDisplay" dimensionsTo="myimage" scaleX=".5" scaleY=".5" maxScale=".8" minScale=".4" outlineOn="true" outline_joint="miter">
+			<Container id="container" dimensionsTo="touchContainer">
+				<GraphicElement id="graphic" width="100%" height="100%" color="0x000000" alpha="1"/>
+				<TextElement id="title_field" top="20" autoSize="center" textAlign="center" wordWrap="true" multiline="true" font="GothamLightFont" textFormatColor="0xffffff" textSize="40" text="title" width="90%" height="100"/>
+				<TextElement id="description_field" width="85%" height="70%" top="100" left="20" wordWrap="true" multiline="true" font="GothamLightFont" textFormatColor="0xffffff" textSize="30" text="description" />
+				<TextElement id="author_field" width="85%" height="60" bottom="-250" left="20" wordWrap="true" multiline="true" font="GothamLightFont" textFormatColor="0xffffff" textSize="30" text="author" />
+				<TextElement id="year_field" width="85%" height="60" bottom="-150" left="20" wordWrap="true" multiline="true" font="GothamLightFont" textFormatColor="0xffffff" textSize="30" text="year" />
+			</Container>
+			<ImageElement id="myimage" src="source" alpha="1"/>
+			<ButtonElement id="infoButton" changeEvent="buttonChangeHandler" color="0x000000" lineStroke="2" lineColor="0xFFFFFF" radius="21" font="GeorgiaItalicFont" textColor="0xffffff" textSize="30" text="i" bottom="-10" left="100" paddingLeft="13" fixedScale="true" graphicAlpha=".5"/>
+			<ButtonElement id="screenButton" changeEvent="buttonChangeHandler" src="library/assets/buttons/imageBtn.png" width="90" height="30" bottom="-20" horizontalCenter="45" fixedScale="true" graphicAlpha="0"/>
+			<ButtonElement id="videoButton" changeEvent="buttonChangeHandler" src="library/assets/buttons/videoBtn.png" width="90" height="30" bottom="-20" right="-20" fixedScale="true" graphicAlpha="0"/>
+			<GestureList>
+				<Gesture ref="n-drag" gestureOn="true"/>
+				<Gesture ref="n-scale" gestureOn="true"/>
+				<Gesture ref="n-rotate" gestureOn="true"/>
+			</GestureList>
+		 </TouchContainer>
+	 </Renderer>
+</ImageRenderer>

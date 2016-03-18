@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmlGuiGonfig>
+	
+	<!-- Dir is created in Documents folder -->
+	<cmlPath>collection_viewer/Images.cml</cmlPath>
+	<assetsFolderPath>collection_viewer/library/assets/</assetsFolderPath>
+	
+	<paths>
+		<images_path>library/assets/images/</images_path>
+		<videos_path>library/assets/videos/</videos_path>
+		<thumbs_path>library/assets/thumbs/</thumbs_path>
+		<presenter_images_path>library/assets/presenter_images/</presenter_images_path>
+		<presenter_videos_path>library/assets/presenter_videos/</presenter_videos_path>
+	</paths>
+	
+	
+	<!-- Not Yet in use
+	<metadata_panel_structure>
+		<Title/>
+		<Description/>
+		<Photographer/>
+		<Year/>
+		<PresenterImage/>
+		<PresenterVideo/>
+	</metadata_panel_structure>
+	-->
+	
+	<xml_output_basic_structure>
+		
+		<beginning_string> <![CDATA[<ImageData>]]> </beginning_string>
+		
+		<xml_list_node>image</xml_list_node>
+		
+		<end_string> <![CDATA[</ImageData>]]> </end_string>
+		
+	</xml_output_basic_structure>
+	
+</xmlGuiGonfig>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Use TUIO for best preformance if you have a TUIO supported input device.  set:  tuio="true"  -->
+<GestureWorksApplication version="1.0.0" gml="library/gml/my_gestures_limits.gml" key="cl3ar" presenterScreen="true" tuio="false" simulator="false"> 
+
+	<ComponentKit className="HeistViewer" rendererList="library/cml/renderers/ImageRenderer.cml">
+		<ImageElement id="background_image" src="library/assets/background/antarcticaBg.jpg"/>
+	</ComponentKit>   	
+		
+</GestureWorksApplication>

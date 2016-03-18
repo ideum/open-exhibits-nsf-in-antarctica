@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<stageVideo>
+
+	<air_app_id>CollectionViewer</air_app_id>
+	
+	<attract_screen_path>USAP-logo.mp4</attract_screen_path>
+	
+</stageVideo>
